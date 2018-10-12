@@ -1,0 +1,68 @@
+.bg-pattern {
+    background: #252525 url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23151515' fill-opacity='0.74'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.login-container {
+    background-color: #EEE;
+}
+
+html, body {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.hero.is-success {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.hero .nav, .hero.is-success .nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.input {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 0 #000;
+    -moz-box-shadow: inset 0 0 0 #000;
+    box-shadow: inset 0 0 0 #000;
+}
+
+.notification {
+    padding: 5px 5px 5px 5px;
+    border-radius: 0;
+}
+
+.box {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-image: linear-gradient(to bottom right, #fcfcfc, #FFFFFF 50%, #FCFCFC);
+    box-shadow: 0 2px 4px rgba(50, 50, 93, .1);
+}
+
+.is-info {
+    border-radius: 0;
+    background: linear-gradient(130deg, #e24040, #f5324b 25%, #f6465d);
+    box-shadow: 0 2px 2px rgba(50, 50, 93, .1);
+}
+
+.button {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+input {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 700;
+}
+
+p.subtitle {
+    padding-top: 1rem;
+}
